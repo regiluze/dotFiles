@@ -31,3 +31,4 @@ set number
 set mouse=a
 set hlsearch
 set incsearch
+syntax on
