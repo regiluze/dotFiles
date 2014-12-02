@@ -1,0 +1,16 @@
+[user]
+	mail = regiluz@alea-soluciones.com
+	email = regiluz@alea-soluciones.com
+	name = Ruben
+
+[push]
+    default = current
+[pull]
+    default = current
+[core]
+	editor = vim
+[alias]
+    st = status
+    co = checkout
+    pl = pull
+    ps = push
