@@ -2,6 +2,7 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+set rtp+=$GOPATH/src/github.com/golang/lint/misc/vim
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -19,6 +20,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 map <C-x> :NERDTreeToggle<CR>
+map <C-l> :Lint<CR>
 
 set tabstop=4
 set softtabstop=4
@@ -31,4 +33,4 @@ set number
 set mouse=a
 set hlsearch
 set incsearch
-syntax on
+
